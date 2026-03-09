@@ -4,6 +4,7 @@ Simple image to create a containerized Minecraft Forge Server. Currently preconf
 
 ## Next Steps
 
-- [ ] Make it work :)
+- [X] Make it work :)
 - [ ] Allow Java VM memory args
-- [ ] Create a mount point for mods, worlds ?
+- [ ] Create a mount point for mods, worlds, permission ?
+- [ ] Variable for whitelist ?

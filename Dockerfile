@@ -10,4 +10,6 @@ ADD https://maven.minecraftforge.net/net/minecraftforge/forge/$FORGE_VERSION/for
 RUN java -jar forge-$FORGE_VERSION-installer.jar --installServer
 RUN echo eula=true > eula.txt
 
+VOLUME "/opt/java/mods"
+
 CMD java -jar forge-$FORGE_VERSION.jar --nogui
